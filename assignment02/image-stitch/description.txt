@@ -1,0 +1,4 @@
+In order to better handle boundaries, in addition to performing OR operations on the left and right graphs,
+I also performed additional processing on the intermediate boundaries. In the border area, the value of the
+target pixel is calculated by weighting. The left image is given a higher weight near the left border, and
+the right image is given a higher weight near the right border.
